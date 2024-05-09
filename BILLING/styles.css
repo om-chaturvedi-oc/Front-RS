@@ -1,0 +1,226 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, ol, li, form, label, input, button, table, th, td {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Left container styles */
+.left-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container-up,
+.left-container-down {
+    flex: 1;
+}
+
+.left-container-up,
+.left-container-down {
+    margin-bottom: 20px;
+}
+
+/* Customer details container styles */
+.left-container-up,
+.left-container-down {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-container h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.left-container form {
+    margin-bottom: 20px;
+}
+
+.left-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.left-container input[type="text"],
+.left-container input[type="tel"],
+.left-container input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.left-container input[type="text"]:focus,
+.left-container input[type="tel"]:focus,
+.left-container input[type="email"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+/* Add item box styles */
+.left-container-down {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-container-down h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.left-container-down form {
+    margin-bottom: 20px;
+}
+
+.left-container-down label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.left-container-down input[type="text"],
+.left-container-down input[type="number"] {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.left-container-down input[type="text"]:focus,
+.left-container-down input[type="number"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.left-container-down button {
+    width: calc(50% - 10px);
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.left-container-down button:hover {
+    background-color: #45a049;
+}
+
+/* Right container styles */
+.right-container {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.right-container h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/* Bill table styles */
+#bill-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#bill-table th,
+#bill-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#bill-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Total amount styles */
+#total {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 18px;
+}
+
+#total-amount {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+/* Sell button styles */
+#sell-button {
+    width: 30%;
+    padding: 10px ;
+    margin: 1rem 0 0 25.5rem;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#sell-button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+/* CSS for row and column layout */
+.row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.col {
+    flex: 1;
+    margin-right: 15px;
+}
+
+
+/* Additional styles */
+.left-container-down button {
+    width: 20%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 0 0 50%;
+}
+
+.left-container-down button:hover {
+    background-color: #45a049;
+}
